@@ -1,0 +1,33 @@
+body {
+    background-image: url('/assets/images/bg.jpg');
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+header .nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+header .hero {
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+header .hero h1 {
+    font-size: 4rem;
+}
+
+header .hero h2 {
+    font-size: 2rem;
+}
+
+header .hero p {
+    font-size: 1.5rem;
+}
