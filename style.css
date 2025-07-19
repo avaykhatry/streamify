@@ -1,8 +1,11 @@
 body {
-    background-image: url('/assets/images/bg.jpg');
+    height: 100%;
+    background-color: #000;
 }
 
+/* header start */
 header {
+    background-image: url('/assets/images/bg.jpg');
     display: flex;
     flex-direction: column;
     gap: 5rem;
@@ -11,13 +14,14 @@ header {
 header .nav {
     display: flex;
     justify-content: space-around;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 header .hero {
     margin: auto;
     text-align: center;
     color: white;
+    padding-bottom: 10rem;
 }
 
 header .hero h1 {
@@ -31,3 +35,103 @@ header .hero h2 {
 header .hero p {
     font-size: 1.5rem;
 }
+
+/* header end */
+
+/* main start */
+
+main {
+    background-color: #000;
+    padding: 4rem;
+    max-width: 75%;
+    margin: auto;
+
+    color: #fff;
+}
+
+main > div {
+    padding: 4rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main div img {
+    width: 50%;
+}
+
+main div div {
+}
+
+main div div h2 {
+    font-size: 3rem;
+}
+
+main div div p {
+    font-size: 1.5rem;
+}
+/* main end */
+
+/* faq start */
+
+.faq {
+    background-color: #000;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    gap: 2rem;
+    color: #fff;
+}
+
+.faq h2 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.faq button p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff
+}
+.faq button {
+    background: #292929;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+
+/* faq end */
+
+/* footer start */
+
+footer {
+    margin: auto;
+    max-width: 60%;
+    color: #fff;
+    display: grid;
+    grid-auto-columns: 200px;
+    grid-template-rows: auto;
+}
+
+footer p {
+    grid-column: span 4;
+}
+
+footer ul li {
+    list-style-type: none;
+    line-height: 3rem;
+
+}
+
+footer ul li a{
+    text-decoration: underline;
+    color: #fff;
+}
+
+/* footer end */
