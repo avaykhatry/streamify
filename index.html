@@ -9,14 +9,15 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav id="navbar">
         <span>
           <img src="/assets/images/logo.svg" width="132" alt="logo"
         /></span>
         <div class="right">
           <button class="btn btn-lang hideOnMobile">English</button>
           <button class="btn btn-red-sm hideOnMobile">Sign In</button>
-          <img onclick="showSideNav()"
+          <img
+            onclick="showSideNav()"
             class="ham-menu"
             width="23px"
             src="/assets/images/menu.svg"
@@ -24,10 +25,16 @@
           />
         </div>
       </nav>
+      <div id="navbar-bg"></div>
+      <div id="navbar-filler"></div>
 
       <nav class="side-nav">
         <span>
-          <img onclick="hideSideNav()" src="/assets/images/close.svg" width="23px" alt=""
+          <img
+            onclick="hideSideNav()"
+            src="/assets/images/close.svg"
+            width="23px"
+            alt=""
         /></span>
         <div class="right">
           <button class="btn btn-lang">English</button>
@@ -37,8 +44,8 @@
       <div class="dark-box"></div>
 
       <div class="hero">
-        <span>Enjoy big movies, hit series and more from ₹ 149.</span>
-        <span>Join today. Cancel anytime.</span>
+        <span>Unlimited Movies, TV Shows, and More</span>
+        <span>Starts at $2.99. Cancel Anytime.</span>
         <span
           >Ready to watch? Enter your email to create or restart your
           membership.</span
@@ -50,6 +57,91 @@
         </div>
       </div>
     </header>
+
+    <div class="separation"></div>
+    <!-- trending carousel start -->
+
+    <div class="trending-carousel">
+      <h3>Trending now</h3>
+      <div
+        class="slider"
+        style="--width: 112px; --height: 156px; --quantity: 10"
+      >
+        <div class="list">
+          <div class="item" style="--position: 1">
+            <div>
+              <img src="assets/images/carousel/slider_1.jpeg" alt="image" />
+            </div>
+          </div>
+          <div class="item" style="--position: 2">
+            <div>
+              <img src="assets/images/carousel/slider_2.jpeg" alt="image" />
+            </div>
+          </div>
+          <div class="item" style="--position: 3">
+            <div>
+              <img src="assets/images/carousel/slider_3.jpeg" alt="image" />
+            </div>
+          </div>
+          <div class="item" style="--position: 4">
+            <div>
+              <img
+              src="assets/images/carousel/slider_4.jpeg"
+              alt="image"
+            ></div>
+          </div>
+          <div class="item" style="--position: 5">
+            <div>
+              <img
+              src="assets/images/carousel/slider_5.jpeg"
+              alt="image"
+            ></div>
+          </div>
+          <div class="item" style="--position: 6">
+            <div>
+              <img src="assets/images/carousel/slider_6.jpeg" alt="image" />
+            </div>
+          </div>
+          <div class="item" style="--position: 7">
+            <div>
+              <img src="assets/images/carousel/slider_7.jpg" alt="image" />
+            </div>
+          </div>
+          <div class="item" style="--position: 8">
+            <div>
+              <img src="assets/images/carousel/slider_8.jpg" alt="image" />
+            </div>
+          </div>
+          <div class="item" style="--position: 9">
+            <div>
+              <img src="assets/images/carousel/slider_9.jpg" alt="image" />
+            </div>
+          </div>
+          <div class="item" style="--position: 10">
+            <div>
+              <img src="assets/images/carousel/slider_10.jpg" alt="image" />
+            </div>
+          </div>
+          <!-- <div class="item" style="--position: 11">
+            <div>
+              <img src="assets/images/carousel/slider_11.jpg" alt="image" />
+            </div>
+          </div>
+          <div class="item" style="--position: 12">
+            <div>
+              <img src="assets/images/carousel/slider_12.jpg" alt="image" />
+            </div>
+          </div>
+          <div class="item" style="--position: 13">
+            <div>
+              <img src="assets/images/carousel/slider_13.jpg" alt="image" />
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- trending carousel end -->
 
     <div class="separation"></div>
 

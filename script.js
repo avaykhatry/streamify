@@ -7,3 +7,15 @@ function hideSideNav() {
     const sidebar = document.querySelector('.side-nav')
     sidebar.style.display = 'none'
 }
+
+///when the user scrolls down, change the background color
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar-bg").style.background = "#292929";
+    } else {
+        document.getElementById("navbar-bg").style.background = "none";
+    }
+}
