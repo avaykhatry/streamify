@@ -23,8 +23,8 @@ body.noir-mode {
 }
 
 body.noir-mode #navbar-bg {
-  position: static;
-  background-color: #ccc8ae;
+  background: rgb(204, 200, 174);
+  opacity: 0.4;
 }
 
 
@@ -119,17 +119,6 @@ header .navbar-filler {
   height: 100px;
   max-width: 100vw;
   position: relative;
-}
-
-header #navbar-bg-noir {
-  height: 100px;
-  max-width: 100vw;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 11;
-  transition: 0.4s;
 }
 
 nav .right {
