@@ -14,7 +14,7 @@
           <img src="/assets/images/logo.svg" width="132" alt="logo"
         /></span>
         <div class="right">
-          <button class="btn btn-lang hideOnMobile">English</button>
+          <button onclick="changeTheme()" class="btn btn-lang hideOnMobile">Classic / Noir</button>
           <button class="btn btn-red-sm hideOnMobile">Sign In</button>
           <img
             onclick="showSideNav()"
@@ -26,7 +26,8 @@
         </div>
       </nav>
       <div id="navbar-bg"></div>
-      <div id="navbar-filler"></div>
+      <div class="navbar-filler"></div>
+      <div id="navbar-bg-noir"></div>
 
       <nav class="side-nav">
         <span>
@@ -37,7 +38,7 @@
             alt=""
         /></span>
         <div class="right">
-          <button class="btn btn-lang">English</button>
+          <button onclick="changeTheme()" class="btn btn-lang">Classic / Noir</button>
           <button class="btn btn-red-sm">Sign In</button>
         </div>
       </nav>

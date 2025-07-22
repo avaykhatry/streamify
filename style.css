@@ -17,6 +17,55 @@ body {
   color: var(--white);
 }
 
+body.noir-mode {
+  background-color: #e6dfaf;
+  color: #000;
+}
+
+body.noir-mode #navbar-bg {
+  position: static;
+  background-color: #ccc8ae;
+}
+
+
+body.noir-mode .side-nav {
+  background-color: #e6dfaf;
+}
+
+body.noir-mode header .dark-box {
+  background-color: #e6dfaf;
+  opacity: 0.59;
+}
+
+body.noir-mode .separation {
+  background-color: #ccc8ae;
+}
+
+body.noir-mode .hero {
+  color: #000;
+}
+
+body.noir-mode .first {
+  color: #000;
+}
+
+body.noir-mode .faq {
+  color: #000;
+}
+
+body.noir-mode .faq-box {
+  background-color: #ccc8ae;
+}
+
+body.noir-mode footer {
+  color: #000;
+}
+
+body.noir-mode .footer-item a{
+  color: #000;
+}
+
+
 /* header start */
 header {
   width: 100%;
@@ -47,7 +96,7 @@ header nav {
   right: 0;
   left: 0;
   position: fixed;
-  z-index: 12;
+  z-index: 15;
   
   display: flex;
   justify-content: space-between;
@@ -62,14 +111,25 @@ header #navbar-bg {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 11;
+  z-index: 12;
   transition: 0.4s;
 }
 
-header #navbar-filler {
+header .navbar-filler {
   height: 100px;
   max-width: 100vw;
   position: relative;
+}
+
+header #navbar-bg-noir {
+  height: 100px;
+  max-width: 100vw;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 11;
+  transition: 0.4s;
 }
 
 nav .right {
