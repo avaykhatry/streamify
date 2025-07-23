@@ -24,7 +24,7 @@ body.noir-mode {
 
 body.noir-mode #navbar-bg {
   background: rgb(204, 200, 174);
-  opacity: 0.4;
+  opacity: 0.45;
 }
 
 
@@ -329,6 +329,7 @@ header .hero {
   align-items: center;
   max-width: 70vw;
   margin: auto;
+  gap: 1rem;
 }
 
 .first > div {
@@ -437,6 +438,7 @@ footer > p {
   .first {
     flex-wrap: wrap;
     text-align: center;
+    gap: 0px;
   }
 
   .secImg Img {
